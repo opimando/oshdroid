@@ -1,0 +1,26 @@
+﻿services:
+  oshseq:
+    image: datalust/seq:2023.2
+    hostname: oshseq
+    environment:
+      - ACCEPT_EULA=Y
+    volumes:
+      - oshseq:/data/
+    ports:
+      - 5347:80
+  oshdroid:
+    image: oshdroid
+    depends_on: 
+      oshseq:
+        condition: service_started
+    #environment:
+      #- TgKey=1
+      #- TgGroupId=-0
+    #volumes:
+      #- ./volumes/settings.json:/app/settings.json
+      #- ./volumes/logger.json:/app/logger.json
+    build:
+      context: ../
+      dockerfile: OshDroid.Startup/Dockerfile
+volumes:
+  oshseq:

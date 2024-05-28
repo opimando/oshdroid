@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OshDroid.Core", "OshDroid.Core\OshDroid.Core.csproj", "{666299F8-94D6-4F78-B464-4B1AEACFE445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramModel", "TelegramModel\TelegramModel.csproj", "{BB1DD7B8-75FC-4C75-8593-B2B26D23A1E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telegram", "Telegram\Telegram.csproj", "{EB24762A-FDF1-4D89-9AEF-91BA5DB37C27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OshDroid.Startup", "OshDroid.Startup\OshDroid.Startup.csproj", "{AB25A266-C8CA-4536-B72D-EEDFA858E8BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{666299F8-94D6-4F78-B464-4B1AEACFE445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{666299F8-94D6-4F78-B464-4B1AEACFE445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{666299F8-94D6-4F78-B464-4B1AEACFE445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{666299F8-94D6-4F78-B464-4B1AEACFE445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1DD7B8-75FC-4C75-8593-B2B26D23A1E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1DD7B8-75FC-4C75-8593-B2B26D23A1E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1DD7B8-75FC-4C75-8593-B2B26D23A1E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1DD7B8-75FC-4C75-8593-B2B26D23A1E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB24762A-FDF1-4D89-9AEF-91BA5DB37C27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB24762A-FDF1-4D89-9AEF-91BA5DB37C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB24762A-FDF1-4D89-9AEF-91BA5DB37C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB24762A-FDF1-4D89-9AEF-91BA5DB37C27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB25A266-C8CA-4536-B72D-EEDFA858E8BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB25A266-C8CA-4536-B72D-EEDFA858E8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB25A266-C8CA-4536-B72D-EEDFA858E8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB25A266-C8CA-4536-B72D-EEDFA858E8BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
